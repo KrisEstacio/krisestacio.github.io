@@ -1,1 +1,50 @@
-	img{width:480px;}
+/*GLOBAL*/
+body {
+
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	line-height: 18px
+}
+
+
+
+
+
+/*HOME PAGE*/
+
+
+
+
+
+
+/* BIO PAGE*/
+.bio h1,
+.bio h2,
+.bio h3{
+
+	font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+	text-align: left;
+}
+
+.bio h1 {
+
+	text-transform: uppercase; 
+	letter-spacing: 1px
+}
+
+.bio article {
+	margin: 0 auto 0 auto;
+	width: 1000px;
+	background: teal;
+}
+
+.bio section {
+	float; left;
+	width: 500px;
+}
+
+
+
+
+
+
+/*STYLE TILE*/
