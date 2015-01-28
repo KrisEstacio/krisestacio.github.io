@@ -8,7 +8,7 @@ body {
 
 p{font-family: 'Yanone Kaffeesatz', sans-serif;
 
-}
+
 
 
 /*HOME PAGE*/
@@ -19,34 +19,53 @@ p{font-family: 'Yanone Kaffeesatz', sans-serif;
 
 
 /* BIO PAGE*/
-.bio h1,
-.bio h2,
-.bio h3{
-
+.bio
+{
 	font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
 	text-align: left;
 }
 
-.bio h1 {
 
-	text-transform: uppercase; 
-	letter-spacing: 1px
+article {
+	background:red;
+	margin:0 auto;
+	width:1000px;
 }
 
-.bio article {
-	margin: 0 auto 0 auto;
+header{
+	width:1000px;
+
+
+}
+
+
+.col1,
+.col2,
+footer{
+	float:left;
+
+}
+
+
+.col1 {
+	width: 300px;
+
+}
+
+.col2{
+	width:700px;
+
+}
+
+.clearfix{
+	clear:both;
+}
+
+footer{
 	width: 1000px;
-	background: teal;
+
+
 }
-
-.bio section {
-	float; left;
-	width: 500px;
-}
-
-
-
-
 
 
 /*STYLE TILE*/
