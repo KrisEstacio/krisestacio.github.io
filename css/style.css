@@ -126,6 +126,14 @@ h2, h3{
 	font-size: 40px;
 }
 
+
+
+.attributes h3{
+	font-size:25px;
+	text-align:center;
+
+}
+
 .resume{
 	width: 40%;
 	margin: auto;
@@ -179,4 +187,17 @@ h2, h3{
 a:hover {
 	color: #666;
 
+}
+
+
+/*Footer*/
+
+footer{
+	text-align:center;
+	font-size: 20px;
+	list-style-type:none;
+	
+	
+	
+	
 }
