@@ -11,6 +11,17 @@ h1, h2, h3{
 
 }
 
+ul li{
+
+	margin-top:7px;
+	margin-bottom: 7px;
+}
+
+p{
+
+	line-height: 24px;
+}
+
 
 /*Header*/
 
@@ -74,17 +85,20 @@ a{
 
 /*BIO*/
 
+
 h2, h3{
-	font-size: 35px;
-	margin-bottom: -10px;
+	font-size: 40px;
+	margin-bottom: -20px;
+	margin-top: ;
 
 }
 
 .about{
 	background: none;
 	width: 40%;
-	font-size: 18px;
+	font-size: 14px;
 	margin-left: 30%;
+	margin-top: -10px;
 	float: left;
 
 }
@@ -92,12 +106,77 @@ h2, h3{
 /*Contact*/
 
 .contact{
+
 	text-align:center;
 
 }
 
-.contact p {
+.contact h3 {
 
-	font-size: 18px;
-	font-weight: bold;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	line-height:23px;
+}
+
+/*Resume*/
+
+.resume h2{
+	text-align: center;
+	font-size: 40px;
+}
+
+.resume{
+	width: 40%;
+	margin: auto;
+
+}
+
+.resume p{
+	font-size: 14px;
+
+}
+
+.skills{
+	width: 20%;
+	float: left;
+	margin-left: 30%;
+
+}
+
+.fields{
+	width: 20%;
+	float: right;
+	text-align: right;
+
+	margin-right: 30%;
+}
+
+
+/*Gallery Page*/
+
+.gallery h3{
+	text-align:center;
+	font-size: 20px;
+	margin-top: -10px;
+	margin-bottom: 20px;
+
+}
+.gallery h2{
+	text-align: center;
+	font-size: 40px;
+
+}
+
+
+#gallery li img{
+	display: inline-block;
+    margin-left: 40%;
+   
+
+}
+
+a:hover {
+	color: #666;
+
 }
