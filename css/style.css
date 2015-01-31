@@ -155,16 +155,17 @@ h2, h3{
 .skills{
 	width: 20%;
 	float: left;
-	margin-left: 30%;
+	margin-left: 25%;
+	text-align:center;
 
 }
 
 .fields{
 	width: 20%;
 	float: right;
-	text-align: right;
+	text-align: center;
 
-	margin-right: 30%;
+	margin-right: 25%;
 }
 
 
