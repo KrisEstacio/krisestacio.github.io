@@ -183,18 +183,29 @@ h2, h3{
 
 }
 
+#gallery{
+	text-align: center;
+}
 
-#gallery li img{
-	display: inline-block;
-    margin-left: 40%;
-   
+
+#gallery img{
+	box-shadow: 10px 5px 15px #000;;
 
 }
+
+
 
 a:hover {
 	color: #666;
 
 }
+
+
+
+
+
+
+
 
 
 /*Footer*/
@@ -208,3 +219,4 @@ footer{
 	
 	
 }
+
