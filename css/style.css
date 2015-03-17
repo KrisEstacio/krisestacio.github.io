@@ -429,7 +429,7 @@ p a{
 
 /*Media Queries*/
 
-@media only screen and (min-width: 480px) and (max-width: 768px) {
+@media only screen and (min-width: 1px) and (max-width: 768px) {
 
 	.resume p{
 		text-align: center;
@@ -493,5 +493,6 @@ p a{
 
 	}
 }
+
 
 
