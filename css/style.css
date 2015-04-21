@@ -95,9 +95,9 @@ h2, h3{
 
 .about{
 	background: none;
-	width: 60%;
+	width: 80%;
 	font-size: 1em;
-	margin-left: 30%;
+	margin-left: 10%;
 	margin-top: -10px;
 	float: left;
 
@@ -430,6 +430,18 @@ p a{
 /*Media Queries*/
 
 @media only screen and (min-width: 1px) and (max-width: 768px) {
+
+	.profob p{
+		width: 80%;
+	}
+
+	.hobbies p{
+		width: 80%;
+	}
+
+	.biog p{
+		width: 80%;
+	}
 
 	.about p{
 		width: 80%;
