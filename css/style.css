@@ -173,40 +173,44 @@ h2, h3{
 
 /*Gallery Page*/
 
-.gallery h3{
-	text-align:center;
-	font-size: 1.25px;
-	margin-top: -10px;
+.gallery{
+	text-align: center;
+	display: block;
+
+}
+
+
+h3 button{
+	border-style: none;
+	font-size: 1em;
 	margin-bottom: 20px;
 
 }
-.gallery h2{
-	text-align: center;
-	font-size: 2.5em;
 
-}
-
-#gallery{
-	;
-	text-align: center;
-	display: block;
-	float: none;
-	margin: 0 auto;
-}
-
-
-#gallery img{
-	width:50%;
-	box-shadow: 10px 5px 15px #000;
+h3 button:hover{
+	color: #666;
 
 }
 
 
 
+.photo {
+  border: 2px solid cyan;
+}
 
-.gallery-images:hover{
-	
-	z-index: 1;
+.illus {
+  border: 2px solid magenta;
+}
+
+.logo {
+ border: 2px solid yellow;
+}
+
+.hide {
+  opacity: 0;
+  transition: opacity .25s;
+  position: absolute;
+}
 
 }
 
@@ -227,55 +231,7 @@ But was modified to fit my specific site and also optimized for various
 view port sizes
 ********************************************/
 
-.img-wrap{
-width: 50%;
 
-position: relative;
-margin-left: 25%;
-margin-top: 1%;
-box-shadow: 10px 5px 15px #000;
-
-}
-
-.img-wrap p{
-	font-size: 1em;
-
-}
-
-.img-wrap h4{
-	font-size: 2em;
-	font-family: 'Teko', sans-serif;
-
-
-}
-
-.ggg{
-	width: 100%;
-	text-align:center;
-
-
-}
-.img-overlay{
-background-color:#111;
-bottom:0;
-color:#fff;
-opacity:0;
-filter: alpha(opacity = 0);
-position:absolute;
-width:100%;
-z-index:10;
-}
-
-.img-overlay h4, .img-overlay p{
-padding:0 10px;
-}
-
-.img-wrap:hover .img-overlay{
-opacity:.85;
-filter: alpha(opacity = 75);
-transition:opacity 0.25s;
--moz-transition:opacity 0.25s;
--webkit-transition:opacity 0.25s;
 }
 
 
