@@ -19,18 +19,18 @@ $('#photo').click( function() {
 });
 
 // Click Illustration
-$('#illus').click( function() {
+$('#poster').click( function() {
   
     checkClass();
-    $('img:not(.illus)').toggleClass('hide');
+    $('img:not(.poster)').toggleClass('hide');
   
 });
 
 // Click Logo
-$('#logo').click( function() {
+$('#mixed-media').click( function() {
  
     checkClass();
-    $('img:not(.logo)').toggleClass('hide');
+    $('img:not(.mixed-media)').toggleClass('hide');
   
 });
 

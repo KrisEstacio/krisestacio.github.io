@@ -173,6 +173,10 @@ h2, h3{
 
 /*Gallery Page*/
 
+div .gallery{
+	width: 70%;
+}
+
 .gallery{
 	text-align: center;
 	display: block;
@@ -193,17 +197,24 @@ h3 button:hover{
 }
 
 
+.port{
+	margin: 10px auto;
+	text-align: center;
+	display: block;
+	width: 30%;
+}
+
+
+.mixed-media {
+  
+}
+
+.poster {
+  
+}
 
 .photo {
-  border: 2px solid cyan;
-}
-
-.illus {
-  border: 2px solid magenta;
-}
-
-.logo {
- border: 2px solid yellow;
+ 
 }
 
 .hide {
