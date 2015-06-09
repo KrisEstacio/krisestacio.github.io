@@ -93,9 +93,9 @@ h2, h3{
 
 }
 
-.about{
+section .about{
 	background: none;
-	width: 80%;
+	width: 60%;
 	font-size: 1em;
 	margin-left: 10%;
 	margin-top: -10px;
@@ -201,8 +201,9 @@ h3 button:hover{
 	margin: 10px auto;
 	text-align: center;
 	display: block;
-	width: 30%;
+	width: 40%;
 }
+
 
 
 .mixed-media {
@@ -397,6 +398,11 @@ p a{
 /*Media Queries*/
 
 @media only screen and (min-width: 1px) and (max-width: 768px) {
+
+	img .port{
+		width: 75%;
+
+	}
 
 	.profob p{
 		width: 80%;
