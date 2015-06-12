@@ -397,14 +397,21 @@ p a{
 
 
 /* SuperBox */
+
+
+
+
 img .superbox-img{
 	text-align: center;
 
 }
 
 .superbox{
+	width: 75%;
 	margin-bottom: 10%;
-	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 	text-align: center;
 
 }
@@ -421,9 +428,11 @@ img .superbox-img{
 	cursor:pointer;
 }
 .superbox-show {
+	margin-bottom: 5%;
+	margin-top: 5%;
 	text-align:center;
 	position:relative;
-	background:#404040;
+	background:none;
 	box-shadow:inset 0 1px 5px #111;
 	-webkit-box-shadow:inset 0 1px 5px #111;
 	-moz-box-shadow:inset 0 1px 5px #111;
@@ -435,6 +444,7 @@ img .superbox-img{
 	max-width:100%;
 	box-shadow:0 1px 4px #222;
 	border:1px solid #222;
+	
 }
 .superbox-img:hover {
 	opacity:0.8;
@@ -495,6 +505,16 @@ img .superbox-img{
 /*Media Queries*/
 
 @media only screen and (min-width: 1px) and (max-width: 768px) {
+
+
+	.superbox{
+	width: 95%;
+	margin-bottom: 10%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+	}
 
 	img .port{
 		width: 75%;
